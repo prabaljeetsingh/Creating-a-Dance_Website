@@ -1,0 +1,42 @@
+h3{
+    font-size: 1.4rem;
+    font-family:'Lobster', cursive ;
+    text-align: center;
+    margin: 12px 0px;
+}
+.container{
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+}
+
+.myinput{
+    width:40%;
+    padding:9px;
+    font-size: 15px;
+    margin:5px;
+    border:2px solid black;
+    border-radius: 12px;
+    outline: none;
+}
+.btn{
+    
+    background-color:orange;
+    color:white;
+    font-size: 15px;
+    border:2px solid red;
+    border-radius: 12px;
+    outline: none;
+    margin:5px;
+    padding:9px;
+    cursor: pointer;
+}

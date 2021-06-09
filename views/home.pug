@@ -1,0 +1,37 @@
+extends base.pug
+block scripts
+  script(src='/static/index.js')
+block style 
+  style 
+         include ../static/style.css
+block content
+         section#introsection
+           div  Dance to feel 
+           div.small  Anybody Can Dance 
+         section#ourmethodology
+            h3 Our Methodology
+            div.card World Class Methods 
+               div.card-box
+                   div.card-img
+                        img(src="../static/img/dance4.jpg")
+                   div.card-content
+                       p We teach using world class methods
+            div.card Where Are They Now 
+               div.card-box
+                   div.card-img
+                       img(src="../static/img/dance5.jpg")
+                   div.card-content
+                        p Our learners at great places now
+            div.card What you can achieve
+               div.card-box
+                   div.card-img
+                       img(src="../static/img/dance6.jpg")
+                   div.card-content
+                        p You can achieve this with our help 
+         section#forsponsors 
+            h3 Our sponsors 
+            div#sponsors 
+               img(src="/static/img/dance8.jpg", alt ="img1", class ="spImage" )
+               img(src="/static/img/dance9.jpg", alt ="img2", class ="spImage" )
+               img(src="/static/img/dance10.jpg", alt ="img3", class ="spImage" )
+               img(src="/static/img/dance11.jpg", alt ="img4", class ="spImage" )  
